@@ -1,0 +1,111 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.siang.pc.pose.activity.MainActivity">
+
+    <!--<fragment
+        android:id="@+id/fragment_social"
+        android:name="com.siang.pc.pose.fragment.SocialFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_above="@+id/radiogroup"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toTopOf="@+id/radiogroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fragment
+        android:id="@+id/fragment_pose"
+        android:name="com.siang.pc.pose.fragment.PoseFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_above="@+id/radiogroup"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toTopOf="@+id/radiogroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fragment
+        android:id="@+id/fragment_my"
+        android:name="com.siang.pc.pose.fragment.MyFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/radiogroup"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toTopOf="@+id/radiogroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fragment_pose" />-->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/navigation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/radiogroup">
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragment_vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/radiogroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/navigation"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:text="female"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/btn_0"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/radio_social"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="17.0sp" />
+
+        <RadioButton
+            android:id="@+id/btn_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="25dp"
+            android:background="@drawable/radio_pose"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="17.0sp" />
+
+        <RadioButton
+            android:id="@+id/btn_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/radio_my"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="17.0sp" />
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>

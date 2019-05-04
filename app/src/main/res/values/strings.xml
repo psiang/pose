@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">pose</string>
+    <string name="mymsg">我的消息</string>
+    <string name="mywallet">我的钱包</string>
+    <string name="mycollect">我的收藏</string>
+    <string name="mysource">我的资源库</string>
+    <string name="myclass">我的课程</string>
+    <string name="myactivity">我的活动</string>
+    <string name="mypose">我的pose影像</string>
+    <string name="myschedule">我的学习计划</string>
+    <string name="attention">关注</string>
+    <string name="fan">粉丝</string>
+    <string name="dynamics">动态</string>
+    <string name="source_lib">资料库</string>
+    <string name="update_vedio">上传视频</string>
+    <string name="record">录制</string>
+    <string name="vip_zone">会员专区</string>
+    <string name="upload_intro">人体动作清晰、背景条件简单、画质清楚的视频或照片</string>
+    <string name="d2_intro">使用摄像头直接拍摄或录像</string>
+    <string name="d3_intro">使用摄像头直接拍摄或录像</string>
+    <string name="upload">上传视频</string>
+    <string name="d2load">二维拍摄导入</string>
+    <string name="d3load">三维拍摄导入</string>
+</resources>
